@@ -15,7 +15,7 @@ fi
 # Download and install Maven
 VERSION="$1"
 if [ ! -n "${VERSION}" ]; then
-    VERSION="3.6.0"
+    VERSION="3.8.6"
 fi
 
 MAVEN_VERSION="apache-maven-${VERSION}"
